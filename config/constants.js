@@ -34,10 +34,11 @@ export const PLANETAS = [
 
 // Los 5 aspectos mayores con su ángulo exacto y orbe máximo permitido (en grados)
 // El orbe define cuánto puede desviarse el ángulo real del ángulo exacto
+// peso: importancia para ranking de contenido TikTok — aspectos tensos primero
 export const ASPECTOS = [
-  { id: 'conjuncion', nombre: 'Conjunción', angulo: 0,   orbe: 8 },
-  { id: 'sextil',     nombre: 'Sextil',     angulo: 60,  orbe: 6 },
-  { id: 'cuadratura', nombre: 'Cuadratura', angulo: 90,  orbe: 8 },
-  { id: 'trigono',    nombre: 'Trígono',    angulo: 120, orbe: 8 },
-  { id: 'oposicion',  nombre: 'Oposición',  angulo: 180, orbe: 8 },
+  { id: 'conjuncion', nombre: 'Conjunción', angulo: 0,   orbe: 8, peso: 5 },
+  { id: 'sextil',     nombre: 'Sextil',     angulo: 60,  orbe: 4, peso: 2 },
+  { id: 'cuadratura', nombre: 'Cuadratura', angulo: 90,  orbe: 6, peso: 4 },
+  { id: 'trigono',    nombre: 'Trígono',    angulo: 120, orbe: 6, peso: 2 },
+  { id: 'oposicion',  nombre: 'Oposición',  angulo: 180, orbe: 8, peso: 4 },
 ];
