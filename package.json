@@ -1,0 +1,21 @@
+{
+  "name": "oraculo-motor",
+  "version": "0.1.0",
+  "description": "Motor astrológico determinístico para JUTILABS Oráculo Diario",
+  "main": "api/calcular-dia.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "test": "node --experimental-vm-modules tests/fechas-conocidas.test.js",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "sweph": "2.10.3-5"
+  },
+  "devDependencies": {
+    "vercel": "^41.5.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
