@@ -27,6 +27,8 @@ export const PLANETAS = [
   { id: 'marte',    nombre: 'Marte',    swephId: 4  },
   { id: 'jupiter',  nombre: 'Júpiter',  swephId: 5  },
   { id: 'saturno',  nombre: 'Saturno',  swephId: 6  },
+  { id: 'urano',    nombre: 'Urano',    swephId: 7  },
+  { id: 'neptuno',  nombre: 'Neptuno',  swephId: 8  },
   { id: 'pluton',   nombre: 'Plutón',   swephId: 9  },
 ];
 
